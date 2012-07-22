@@ -9,11 +9,12 @@
   <artifactId>time-provider</artifactId>
   <name>John Butler Date Provider</name>
   <description>Utility for providing test-overridable system date / time access.</description>
+  <version>${project.parent.version}</version>
+  
   <dependencies>
   	<dependency>
   		<groupId>com.google.code.findbugs</groupId>
   		<artifactId>jsr305</artifactId>
   	</dependency>
   </dependencies>
-  <version>${parent.version}</version>
 </project>

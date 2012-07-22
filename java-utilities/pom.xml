@@ -9,12 +9,12 @@
   <artifactId>java-utilities</artifactId>
   <name>John Butler Java Production Utilities</name>
   <description>Java Utilities for use in production code</description>
-  <version>${parent.version }</version>
+  <version>${project.parent.version}</version>
   <dependencies>
   	<dependency>
   		<groupId>org.jjbutler</groupId>
   		<artifactId>time-provider</artifactId>
-  		<version>${parent.version}</version>
+  		<version>${project.parent.version}</version>
   	</dependency>
   </dependencies>
 </project>

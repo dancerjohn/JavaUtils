@@ -7,12 +7,12 @@
     <relativePath>..</relativePath>
   </parent>
   <artifactId>time-controller</artifactId>
-  <version>${parent.version}</version>
+  <version>${project.parent.version}</version>
   <dependencies>
   	<dependency>
   		<groupId>org.jjbutler</groupId>
   		<artifactId>time-provider</artifactId>
-  		<version>${parent.version}</version>
+  		<version>${project.parent.version}</version>
   	</dependency>
   	<dependency>
   		<groupId>com.google.guava</groupId>
@@ -23,4 +23,6 @@
   		<artifactId>junit-dep</artifactId>
   	</dependency>
   </dependencies>
+  <name>Time Controller</name>
+  <description>Provides unit test control of system time as provider by TimeProvider.</description>
 </project>

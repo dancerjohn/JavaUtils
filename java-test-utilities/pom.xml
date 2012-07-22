@@ -9,11 +9,12 @@
   <artifactId>java-test-utilities</artifactId>
   <name>John Butler Java Test Utilities</name>
   <description>Java utilities for use in testing. This jar should always be included as test scope.</description>
+  <version>${project.parent.version}</version>
   <dependencies>
   	<dependency>
   		<groupId>org.jjbutler</groupId>
   		<artifactId>time-controller</artifactId>
-  		<version>${parent.version}</version>
+  		<version>${project.parent.version}</version>
   	</dependency>
   </dependencies>
 </project>
