@@ -16,5 +16,16 @@
   		<artifactId>time-provider</artifactId>
   		<version>${project.parent.version}</version>
   	</dependency>
+  	
+  	<dependency>
+  		<groupId>org.jjbutler</groupId>
+  		<artifactId>annotations</artifactId>
+  		<version>${project.parent.version}</version>
+  	</dependency>
+
+  	<dependency>
+  		<groupId>com.google.guava</groupId>
+  		<artifactId>guava</artifactId>
+  	</dependency>
   </dependencies>
 </project>
