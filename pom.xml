@@ -12,6 +12,7 @@
   	<module>time-controller</module>
   	<module>java-test-utilities</module>
   	<module>java-utilities</module>
+  	<module>annotations</module>
   </modules>
   
   
